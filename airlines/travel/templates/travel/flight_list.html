@@ -1,0 +1,11 @@
+<h1>flight detail</h1>
+<br>
+<div>
+	<ul>
+		{% for flight in object_list %}
+			
+			<li>{{ flight.from_city }}  -  {{ flight.to_city }}</li>
+			
+		{% endfor %}
+	</ul>
+</div>

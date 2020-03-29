@@ -1,0 +1,18 @@
+
+<h1>HomePage</h1>
+<form action="{% url 'search_results' %}" method="get">
+
+	<label for="from_city">From City</label>
+
+	<input name="departure" type="text" id="from_city">
+
+	<label for="to_city">To City</label>
+
+	<input name="arrival" type="text" id="to_city">
+	
+	<label for="from_time">From Date</label>
+	
+	<input name="departure_date" type="date" id="from_time" required>
+	
+	<input type="submit" value="search">
+</form>
